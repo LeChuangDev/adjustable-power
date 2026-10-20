@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "source/bsp_pwm.c"
+        "source/bsp_uart.c"
+        "source/bsp_display.c"
+        "source/esp_lcd_touch_cst820.c"
+        "source/bsp_pd.c"
+    INCLUDE_DIRS "include"
+    REQUIRES
+        driver
+        esp_common
+        log
+        esp_lcd
+        lvgl
+        espressif__esp_lcd_co5300
+        espressif__esp_lcd_touch
+        espressif__esp_lvgl_adapter
+    PRIV_REQUIRES
+        freertos
+)

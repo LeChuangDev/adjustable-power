@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "ota_manager.c"
+        "ota_wifi.c"
+        "ota_flash.c"
+        "ota_protocol.c"
+    INCLUDE_DIRS "include"
+    REQUIRES
+        nvs_flash
+        esp_wifi
+        esp_netif
+        esp_event
+        esp_timer
+        lwip
+        app_update
+        esp_partition
+        esp_system
+        mbedtls
+        log
+    PRIV_REQUIRES
+        freertos
+)

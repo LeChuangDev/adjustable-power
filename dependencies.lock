@@ -1,0 +1,106 @@
+dependencies:
+  espressif/button:
+    component_hash: ad64de1d1b8aa139564810a8519b2f1ac275a560a512479ee94c1b6983469d4b
+    dependencies:
+    - name: espressif/cmake_utilities
+      registry_url: https://components.espressif.com
+      require: private
+      version: '*'
+    - name: idf
+      require: private
+      version: '>=4.0'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 4.2.0
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.1'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.5.3
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__esp_lcd_touch
+      type: local
+    version: 1.2.1
+  espressif/esp_lv_decoder:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__esp_lv_decoder
+      type: local
+    version: 0.3.5
+  espressif/esp_lv_fs:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__esp_lv_fs
+      type: local
+    version: 1.0.1
+  espressif/esp_mmap_assets:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__esp_mmap_assets
+      type: local
+    version: 2.0.0
+  espressif/esp_new_jpeg:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__esp_new_jpeg
+      type: local
+    version: 0.6.1
+  espressif/freetype:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__freetype
+      type: local
+    version: 2.14.2
+  espressif/knob:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__knob
+      type: local
+    version: 1.0.2
+  espressif/libpng:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__libpng
+      type: local
+    version: 1.6.58
+  espressif/zlib:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\espressif__zlib
+      type: local
+    version: 1.3.2
+  idf:
+    source:
+      type: idf
+    version: 5.5.5
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: C:\Users\zhang\Desktop\Project\adjustable-power\components\lcd\lvgl__lvgl
+      type: local
+    version: 8.4.0
+direct_dependencies:
+- espressif/button
+- espressif/cmake_utilities
+- espressif/esp_lcd_touch
+- espressif/esp_lv_decoder
+- espressif/esp_lv_fs
+- espressif/esp_mmap_assets
+- espressif/esp_new_jpeg
+- espressif/freetype
+- espressif/knob
+- espressif/libpng
+- espressif/zlib
+- idf
+- lvgl/lvgl
+manifest_hash: 2031330973acd7db1904c565c5b7bc59a5fc988267da0472282c3729ecb275b4
+target: esp32s3
+version: 2.0.0

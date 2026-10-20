@@ -1,0 +1,2 @@
+# 升级失败自动回滚（配合 ota_flash_mark_valid）
+CONFIG_BOOTLOADER_APP_ROLLBACK_ENABLE=y
